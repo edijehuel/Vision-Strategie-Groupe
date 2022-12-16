@@ -8,7 +8,7 @@ html{
 }
 
 body { 
-  color: #1b1919; 
+  color: #1b1919;
   font-family:'Poppins','Roboto', Arial, sans-serif;
   font-size: 14px;
   padding:  0 150px;
@@ -1582,7 +1582,7 @@ ul.list-footer li:hover a{
 .canvas.carousel.photo{
   border-bottom: 1px solid #22b24c21;
   margin-bottom: 12px;
-}
+} 
 .media_photo{
   padding-bottom: 40px;
 }
