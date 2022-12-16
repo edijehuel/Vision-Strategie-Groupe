@@ -1582,7 +1582,8 @@ ul.list-footer li:hover a{
 .canvas.carousel.photo{
   border-bottom: 1px solid #22b24c21;
   margin-bottom: 12px;
-} 
+}
+
 .media_photo{
   padding-bottom: 40px;
 }
@@ -3010,8 +3011,8 @@ PAGE LOADER
 .img_elmts span{
   color: rgb(255, 255, 255);
   font-size: 1.5rem;
-    position: absolute;
-    bottom: 8px;
+  position: absolute;
+  bottom: 8px;
   left: 20px;
   font-weight: 800;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -3022,7 +3023,7 @@ PAGE LOADER
 }
 .img_elmts:hover .overlay_elmt{
   height: 200px;
-  background: linear-gradient(180deg, rgb(19 30 74 / 2%) 0%, rgb(19 30 74 / 94%) 80%);
+  /* background: linear-gradient(180deg, rgb(19 30 74 / 2%) 0%, rgb(19 30 74 / 94%) 80%); */
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
@@ -3087,7 +3088,7 @@ ul.axes li {
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
   /* background: rgb(101, 107, 128); */
-  background: linear-gradient(180deg, rgb(19 30 74 / 2%) 0%, rgb(19 30 74 / 80%) 80%);
+  background: linear-gradient(180deg, rgb(19 30 74 / 2%) 0%, rgba(40, 54, 111, 0.8) 80%);
 }
 .relative1 .overlay_elmt{
   position: absolute;
@@ -3210,7 +3211,6 @@ a.orange_text_link {
 .text_orange{
   color: #22b24c!important;
 }
-
 a.orange_text_link:hover{
   text-decoration: none;
   cursor: pointer;
